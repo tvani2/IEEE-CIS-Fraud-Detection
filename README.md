@@ -19,3 +19,5 @@ Adaboost-მა შედეგი ოდნავ გააუმჯობე�
 რაც შეეხება XGBoost-ს. წესით უკეთესია არადაბალანსებული დატასთვის. თავიდან მარტო კორელაციის ფილტრით ვდროპავდი სვეტებს, მერე გამახსენდა understampling. ბევრი სვეტი დამიდროპა, საბოლოოდ 30-ღა დამრჩა. train-ზე f1 score საშუალოდ 0.65 მქონდა(ვიცი, საშინელებაა)
 
 საბოლოო მოდელის შერჩევის დასაბუთება: თითოეული მოდელისთვის ვეძებდი ოპტიმალურ პარამეტრებს. საბოლოოდ ავირჩიე XGBoost. 
+
+MLflow Tracking: MLflow ექსპერიმენტების ბმული: https://dagshub.com/tvani2/IEEE-CIS-Fraud-Detection.mlflow/#/experiments/7?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D
